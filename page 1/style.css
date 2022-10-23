@@ -15,10 +15,9 @@
 }
 .backGround {
 	width: 100%;
-	height: auto;
 	position: absolute;
-	right: 0;
 	bottom: 0;
+	right: 0;
 	z-index: -1;
 }
 
@@ -69,4 +68,22 @@ button:hover {
 
 button:active {
 	transform: translateY(-1px);
+}
+@media (max-width: 500px) {
+	body {
+		background-color: black;
+	}
+	.content h1 {
+		font-size: 1.6rem;
+	}
+
+	.backGround {
+		width: auto;
+		height: 100%;
+		position:absolute;
+		z-index: -1;
+		
+		
+	}
+	
 }
